@@ -1,0 +1,71 @@
+public class Kreis {	
+
+	double radius;
+
+	public Kreis() {
+
+		radius = 0;
+
+	}
+
+
+
+	public Kreis(double radius) {
+
+		this.radius = radius;
+
+	}
+
+
+
+	double getRadius() {
+
+		return radius;
+
+	}
+
+
+
+	void setRadius(double r) {
+
+		radius = r;
+
+	}
+
+
+
+	double getUmfang() {
+
+		double u = 2*Math.PI*radius;
+
+		u = Math.round(u*100);
+
+		return u/100;
+
+	}
+
+
+
+	double getFlaeche() {
+
+		double f = Math.PI*Math.pow(radius,2);
+
+		f = Math.round(f*100);
+
+		return f/100;
+
+	}
+
+	
+
+	public String toString() {
+
+		return "Der Radius des Kreises ist: "+radius
+
+				+"\nDer Umfang des Kreises ist: "+getUmfang()
+
+				+"\nDie Fläche des Kreises ist: "+getFlaeche();
+
+	}
+
+}
