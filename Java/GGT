@@ -1,0 +1,61 @@
+int a, b;
+
+double result;
+
+
+
+  while (true) { 
+
+
+
+   while (true) {
+
+    try {
+
+     a = Integer.parseInt(JOptionPane.showInputDialog("Bitte geben Sie den Operanden a ein:"));
+
+     break;
+
+    } catch (NumberFormatException ex) {
+
+     JOptionPane.showMessageDialog(null, "Bitte eine Zahl eingeben.");
+
+    }
+
+   }
+
+
+
+   while (true) {
+
+    try {
+
+     b = Integer.parseInt(JOptionPane.showInputDialog("Bitte geben Sie den Operanden b ein:"));
+
+     break;
+
+    } catch (NumberFormatException ex) {
+
+     JOptionPane.showMessageDialog(null, "Bitte eine Zahl eingeben.");
+
+    }
+
+   }
+
+
+
+   if (a == 0 || b == 0) {  //0-Check
+
+    JOptionPane.showMessageDialog(null, "Du hast eine 0 eingegeben. 0 ist kein gültiger Operand."); 
+
+   } else { //Berechnen und Ausgabe des Ergebnisses	
+
+    result = a + (b / a - a / b) * b;
+
+    JOptionPane.showMessageDialog(null, "Ergebnis: " + result);
+
+    break;
+
+   }
+
+  }
