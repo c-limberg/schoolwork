@@ -1,0 +1,31 @@
+public static void Kreistabelle() {
+
+		Kreis test = new Kreis();
+
+		test.setRadius(Double.parseDouble(JOptionPane.showInputDialog("Gib den Radius eines Kreises ein.")));
+
+		double increment = Double.parseDouble(JOptionPane.showInputDialog("Gib eine Radiuserhöhung ein."));
+
+		
+
+		System.out.println("Radius\tUmfang\tFläche");
+
+		
+
+		for(int i=0;i<30;i++) {
+
+				System.out.println(test.getRadius()+"\t"+test.getUmfang()+"\t"+test.getFlaeche());
+
+				test.setRadius((test.getRadius()+increment)); 
+
+		}
+
+	}
+
+
+
+public static void main(String[] args) {
+
+Kreistabelle();
+
+}
