@@ -1,0 +1,61 @@
+public static void frequency2() {
+
+		float a = 0.0f, e = 0.0f, f = 0.0f, r = 0.0f, q = 0.0f, z = 0.0f;
+
+		
+
+		String s = JOptionPane.showInputDialog("Bitte geben Sie eine auszuwertende Zeichenkette ein: ");
+
+		
+
+		for(char c:s.toCharArray()) {
+
+			if(c=='a'||c=='A') {
+
+				a++;
+
+			}
+
+			else if(c=='e'||c=='E') {
+
+				e++;
+
+			}
+
+			else if(c=='f'||c=='F') {
+
+				f++;
+
+			}
+
+			else if(c=='r'||c=='R') {
+
+				r++;
+
+			}
+
+			else if(c=='q'||c=='Q') {
+
+				q++;
+
+			}
+
+			else if(c=='z'||c=='Z');
+
+		}
+
+		
+
+		JOptionPane.showMessageDialog(null, s
+
+				+"\na: "+a+" Vorkommen ("+(a/s.length()*100)+"%)"
+
+				+"\ne: "+e+" Vorkommen ("+(e/s.length()*100)+"%)"
+
+				+"\nf: "+f+" Vorkommen ("+(f/s.length()*100)+"%)"
+
+				+"\nr: "+r+" Vorkommen ("+(r/s.length()*100)+"%)"
+
+				+"\nq: "+q+" Vorkommen ("+(q/s.length()*100)+"%)"
+
+				+"\nz: "+z+" Vorkommen ("+(z/s.length()*100)+"%)");
