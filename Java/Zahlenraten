@@ -1,0 +1,35 @@
+private static void zahlenraten() {
+
+	JOptionPane.showMessageDialog(null, "Willkommen beim Zahlenraten."
+
+		+ "\nIch denke mir eine Zahl zwischen 1 und 100. Rate diese Zahl!");
+
+		
+
+	int geheimzahl = (int)(99*Math.random()+1);
+
+	int counter = 1;
+
+		
+
+	while(true) {
+
+			
+
+		int ratezahl = Integer.parseInt(JOptionPane.showInputDialog(counter+". Versuch:"));
+
+		counter++;
+
+			
+
+		if(geheimzahl==ratezahl) break;
+
+		else if(geheimzahl>ratezahl) JOptionPane.showMessageDialog(null, "Meine Zahl ist größer!");
+
+		else if(geheimzahl<ratezahl) JOptionPane.showMessageDialog(null, "Meine Zahl ist kleiner!");
+
+		}
+
+	JOptionPane.showMessageDialog(null, "Du hast meine Zahl beim "+(counter-1)+". Versuch erraten!");
+
+	}
