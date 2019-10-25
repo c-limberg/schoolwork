@@ -1,0 +1,55 @@
+static void collatz(){
+
+		int x = Integer.parseInt(JOptionPane.showInputDialog("Gib die Ausgangszahl ein."));
+
+		int nextX = x;
+
+		ArrayList<Integer> hold = new ArrayList<Integer>();
+
+		
+
+		while(nextX!=1) {
+
+			System.out.print(nextX+", ");
+
+			hold.add(nextX);
+
+			
+
+			if(nextX%2==0) {
+
+				nextX=nextX/2;
+
+			}
+
+			else if(nextX%2!=0) {
+
+				nextX=nextX*3+1;
+
+			}
+
+		}
+
+		
+
+			System.out.println(nextX);
+
+		
+
+		int biggestNum = 0;
+
+		for(int i:hold) {
+
+			if(i>biggestNum) {
+
+				biggestNum = i;
+
+			}
+
+		}
+
+		
+
+		System.out.println("Länge der Collatzfolge von "+x+": "+hold.size()+"\nGrößte Zahl der Collatzfolge von "+x+": "+biggestNum);
+
+	}
