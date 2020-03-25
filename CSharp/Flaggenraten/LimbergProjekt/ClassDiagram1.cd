@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LimbergProjekt.Database">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQAAAAAAAAAAAAgAAMAAQAAAAACgAAAAAA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.GameData">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAACAIAAAgCAAAAAAAAAgA=</HashCode>
+      <FileName>GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.GameUI">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARECUAE6BeE4ERAJCBLFSQgCxiNABCkClgZghQAgiAA=</HashCode>
+      <FileName>GameUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.MainMenu">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgABBACARQBAAAACQAAACCIAAAAAQAAAAgQJAAAA=</HashCode>
+      <FileName>MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.ModeDg">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgIAAAACBAAAEAkACAAAICBARAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>ModeDg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.NameDg">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABBABAACAAABCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NameDg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.Program">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.Score">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAIAAAAAAAABAABAAQAAQAA=</HashCode>
+      <FileName>Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.ScoreWindow">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAhACIQCAIAAEGIAAICAAAAAAAAIAAAQQAAAAA=</HashCode>
+      <FileName>ScoreWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.Properties.Resources">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEABEAAAAQAAABAAAAgAAQAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LimbergProjekt.Properties.Settings">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
